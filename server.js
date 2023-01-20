@@ -39,7 +39,7 @@ app.use(router);
 module.exports.startServer = async () => {
   try {
     await mongoose.connect(
-      process.env.MONGO_URL || "mongodb://localhost/rolebase-auth-db",
+      "mongodb+srv://rohanraj:rohanraj94@cluster0.vkdsrxj.mongodb.net/MemberData?retryWrites=true&w=majority",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
