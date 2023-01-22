@@ -9,7 +9,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Rohan Raj",
+  "author": "Abhishek vishen",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
